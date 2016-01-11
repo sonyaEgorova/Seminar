@@ -10,7 +10,8 @@ namespace Seminar16
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            Console.WriteLine();
+            Console.WriteLine("AAAAAAAA");
         }
     }
 }
