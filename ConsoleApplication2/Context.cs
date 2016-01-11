@@ -10,6 +10,12 @@ namespace Seminar16
     class Context : DbContext
     {
         public DbSet<Song> Songs { get; set; }
-        public DbSet<Album> Albums { get; set; } 
+        public DbSet<Album> Albums { get; set; }
+ 
+        public Context()
+            : base("Music")
+        {
+
+        }
     }
 }

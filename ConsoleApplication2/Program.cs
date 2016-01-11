@@ -12,6 +12,10 @@ namespace Seminar16
         {
             Console.WriteLine();
             Console.WriteLine("AAAAAAAA");
+            
+            using (var с = new Context())
+            { 
+            }
         }
     }
 }
